@@ -1,0 +1,12 @@
+
+Usage: D:\课程文档\大二上\oop\homework\15输入输出流进阶\Debug\05作业次行检查.exe [ --secondline | --courseid cid | --filename name/all ] | --debug xxxxx
+                                                                                    --secondline   : 次行检查
+                                                                                    --courseid     : 课号
+                                                                                    --filename     : 文件名(不支持all)
+                                                                                    --debug xxxxx  : 跟5位0/1，从左到右依次表示需要打印[读课号文件 | 学生名单 | 第2行解析 | 互验匹配 | 最终结果]的信息，默认00000
+
+e.g.   D:\课程文档\大二上\oop\homework\15输入输出流进阶\Debug\05作业次行检查.exe --secondline --courseid 100692 --filename 5-b14.c --debug 11111 : 检查100692课程的5-b14.c的第二行(打印所有信息)
+       D:\课程文档\大二上\oop\homework\15输入输出流进阶\Debug\05作业次行检查.exe --secondline --courseid 100692 --filename 5-b14.c --debug 00100 : 检查100692课程的5-b14.c的第二行(打印解析信息)
+
+
+必须指定参数[--secondline]

@@ -1,0 +1,5 @@
+/* 2151279 ÁºÉÜÏª ÐÅ12 */
+/*2053774 ³ÂÏ£½Ü 2153598 ÁºÄ­º¬ 2153683 ¹ù¼Î 2153289 ÍõÒÝ·² */
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <iomanip>

@@ -1,0 +1,5 @@
+/* 2152049 ½ª¸£ËÉ ÐÅ14 */
+#define _CRT_SECURE_NO_WARNINGS
+#include <time.h>
+#include <windows.h>
+#include <stdio.h>

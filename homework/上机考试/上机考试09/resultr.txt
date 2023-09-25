@@ -1,0 +1,5 @@
+
+Usage: my [ --all_group datafile | datafile groupname]
+       my hw_data.txt 3-b3-data-01 : 取hw_data.txt文件的[3-b3-data-01]数据
+       my --all_group hw_data.txt  : 列出hw_data.txt文件的所有组名
+

@@ -1,0 +1,18 @@
+@echo off
+setlocal enabledelayedexpansion
+
+set "targetFile=.vs"
+set "targetFolder=Debug"
+
+for /r %%i in (%targetFile%) do (
+    echo Deleting "%%i"
+    del "%%i" /f /q
+	if exist "%targetFolder%"
+	(
+		rmdir /s /q "%targetFolder%"
+		echo Deleting "targetFolder% and its contents
+	)
+)
+
+echo Deletion complete.
+pause

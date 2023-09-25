@@ -1,0 +1,5 @@
+/* 2151617 ÐÅ18 Ö£Ûú */
+#define _CRT_SECURE_NO_WARNINGS //VS2019ÐèÒª
+#include <stdio.h>
+#include <conio.h>
+

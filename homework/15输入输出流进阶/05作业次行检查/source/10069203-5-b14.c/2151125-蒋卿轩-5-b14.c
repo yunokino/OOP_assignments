@@ -1,0 +1,5 @@
+/*2151125 ÐÅ15 ½¯ÇäÐù*/
+/*2150561 ´÷¼ÒÀÖ 2151274 Ê©ÐÛ²© 2151126 »ÆÈðæë 2152604 Ñî³¿Íþ 2151892 ÎâÍ©*/
+#define _CRT_SECURE_NO_WARNINGS
+#include <time.h>
+#include <windows.h>

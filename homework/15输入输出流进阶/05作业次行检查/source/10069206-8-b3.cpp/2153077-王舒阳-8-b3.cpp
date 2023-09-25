@@ -1,0 +1,5 @@
+/*2153077 –≈10 Õı Ê—Ù*/
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+using namespace std;

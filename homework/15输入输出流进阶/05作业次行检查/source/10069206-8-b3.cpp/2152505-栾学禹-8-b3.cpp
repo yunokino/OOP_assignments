@@ -1,0 +1,5 @@
+/*–≈14 2152505 ËÔ—ß”Ì*/
+
+#include<iostream>
+#include<fstream>
+using namespace std;

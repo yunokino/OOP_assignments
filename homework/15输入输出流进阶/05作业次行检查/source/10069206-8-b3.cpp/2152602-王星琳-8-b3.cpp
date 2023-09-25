@@ -1,0 +1,5 @@
+/*2152602 –≈21 Õı–«¡’*/
+#include<iostream>
+#include<iomanip>
+#include<fstream>
+using namespace std;

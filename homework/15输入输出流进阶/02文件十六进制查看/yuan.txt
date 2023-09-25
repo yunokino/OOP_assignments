@@ -1,0 +1,48 @@
+int x_min = four_min(left_up_x, right_up_x, right_down_x, left_down_x);
+		int y_min = four_min(left_up_y, right_up_y, right_down_y, left_down_y);
+		int x_max = four_max(left_up_x, right_up_x, right_down_x, left_down_x);
+		int y_max = four_max(left_up_y, right_up_y, right_down_y, left_down_y);
+		int x_filled = x_min;
+		int y_filled = y_min;
+		for (int x_filled = x_max - 1; x_filled > x_min; x_filled--) {
+			int y_array[2] = { -1,-1 }, led = 0;
+			for (int y_filled = y_max; y_filled >= y_min; y_filled--) {
+				int inrectangle = 0;
+				inrectangle = istr(left_up_x, left_up_y, left_down_x, left_down_y, right_down_x, right_down_y, right_up_x, right_up_y, x_filled, y_filled);
+				int a= istr(left_up_x, left_up_y, left_down_x, left_down_y,  right_down_x, right_down_y, right_up_x, right_up_y ,x_filled, y_filled-1);
+				if (inrectangle == 1 && a==0) {
+					y_array[0] = y_filled;
+					led = 1;
+				}
+				else if (inrectangle == 0 && a==1) {
+					y_array[1] = y_filled;
+					led = 0;
+				}
+			}
+			if (y_array[0] >= 0 && y_array[1] >= 0)
+				hdc_base_line(x_filled, y_array[0], x_filled, y_array[1]);
+				
+				
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int begin_x = point_x - radius * sin(angle_begin_cmd), begin_y = point_y + radius * cos(angle_begin_cmd);
+	int end_x= point_x - radius * sin(angle_end_cmd), end_y = point_y + radius * cos(angle_end_cmd);
+	int min_x = (begin_x>end_x?end_x:begin_x), min_y = (begin_y > end_y ? end_y : begin_y), max_x = (begin_x < end_x ? end_x : begin_x), max_y = (begin_y < end_y ? end_y : begin_y);

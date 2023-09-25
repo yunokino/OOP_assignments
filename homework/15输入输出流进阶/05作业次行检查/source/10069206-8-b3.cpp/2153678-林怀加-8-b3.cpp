@@ -1,0 +1,5 @@
+/*2153678 –≈01 ¡÷ª≥º”*/
+
+#include<iostream>
+#include<fstream>
+#include<iomanip> 

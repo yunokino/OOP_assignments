@@ -1,0 +1,5 @@
+
+/*2152818 ≈Ì–«÷Ò 2150268 —¶Á˝¡ÿ 2153166 ¡∫≥Â*/ 
+#include <iostream>
+#include <string>
+#include <fstream>
