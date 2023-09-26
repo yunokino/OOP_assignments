@@ -1,0 +1,6 @@
+#ignore all files but c,cpp,hpp,h
+*.* #ignore all files
+!*.c
+!*.cpp
+!*.h
+!*.hpp
